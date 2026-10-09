@@ -1,1 +1,24 @@
-index.html.BreakoutZhttps://discord.gg/vmdj6tt5fd
+<!-- Botão de Regras -->
+<a href="regras.html" class="botao-regras">Regras</a>
+
+<style>
+.botao-regras {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #ffffff; /* Fundo Branco */
+    color: #ff0000;            /* Letras Vermelhas */
+    border: 2px solid #ff0000; /* Borda Vermelha para dar destaque */
+    border-radius: 6px;        /* Cantos arredondados */
+    text-decoration: none;     /* Remove o sublinhado de link */
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 16px;
+    transition: background 0.3s, color 0.3s;
+    cursor: pointer;
+}
+
+/* Efeito opcional: inverte as cores quando passa o mouse por cima */
+.botao-regras:hover {
+    background-color: #ff0000; /* Fundo fica Vermelho */
+    color: #ffffff;            /* Letras ficam Brancas */
+}
